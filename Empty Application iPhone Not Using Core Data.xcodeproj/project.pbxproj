@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2445FD619F7B30800C3DD71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2445FD519F7B30800C3DD71 /* Foundation.framework */; };
+		C2445FD819F7B30800C3DD71 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2445FD719F7B30800C3DD71 /* CoreGraphics.framework */; };
+		C2445FDA19F7B30800C3DD71 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2445FD919F7B30800C3DD71 /* UIKit.framework */; };
+		C2445FE019F7B30800C3DD71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2445FDE19F7B30800C3DD71 /* InfoPlist.strings */; };
+		C2445FE219F7B30800C3DD71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2445FE119F7B30800C3DD71 /* main.m */; };
+		C2445FE619F7B30800C3DD71 /* YYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2445FE519F7B30800C3DD71 /* YYAppDelegate.m */; };
+		C2445FE819F7B30800C3DD71 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2445FE719F7B30800C3DD71 /* Images.xcassets */; };
+		C2445FEF19F7B30800C3DD71 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2445FEE19F7B30800C3DD71 /* XCTest.framework */; };
+		C2445FF019F7B30800C3DD71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2445FD519F7B30800C3DD71 /* Foundation.framework */; };
+		C2445FF119F7B30800C3DD71 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2445FD919F7B30800C3DD71 /* UIKit.framework */; };
+		C2445FF919F7B30800C3DD71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2445FF719F7B30800C3DD71 /* InfoPlist.strings */; };
+		C2445FFB19F7B30800C3DD71 /* Empty_Application_iPhone_Not_Using_Core_DataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2445FFA19F7B30800C3DD71 /* Empty_Application_iPhone_Not_Using_Core_DataTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2445FF219F7B30800C3DD71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2445FCA19F7B30800C3DD71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2445FD119F7B30800C3DD71;
+			remoteInfo = "Empty Application iPhone Not Using Core Data";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2445FD219F7B30800C3DD71 /* Empty Application iPhone Not Using Core Data.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Empty Application iPhone Not Using Core Data.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2445FD519F7B30800C3DD71 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C2445FD719F7B30800C3DD71 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C2445FD919F7B30800C3DD71 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C2445FDD19F7B30800C3DD71 /* Empty Application iPhone Not Using Core Data-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Empty Application iPhone Not Using Core Data-Info.plist"; sourceTree = "<group>"; };
+		C2445FDF19F7B30800C3DD71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C2445FE119F7B30800C3DD71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2445FE319F7B30800C3DD71 /* Empty Application iPhone Not Using Core Data-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Empty Application iPhone Not Using Core Data-Prefix.pch"; sourceTree = "<group>"; };
+		C2445FE419F7B30800C3DD71 /* YYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYAppDelegate.h; sourceTree = "<group>"; };
+		C2445FE519F7B30800C3DD71 /* YYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYAppDelegate.m; sourceTree = "<group>"; };
+		C2445FE719F7B30800C3DD71 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C2445FED19F7B30800C3DD71 /* Empty Application iPhone Not Using Core DataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Empty Application iPhone Not Using Core DataTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2445FEE19F7B30800C3DD71 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C2445FF619F7B30800C3DD71 /* Empty Application iPhone Not Using Core DataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Empty Application iPhone Not Using Core DataTests-Info.plist"; sourceTree = "<group>"; };
+		C2445FF819F7B30800C3DD71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C2445FFA19F7B30800C3DD71 /* Empty_Application_iPhone_Not_Using_Core_DataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Empty_Application_iPhone_Not_Using_Core_DataTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2445FCF19F7B30800C3DD71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2445FD819F7B30800C3DD71 /* CoreGraphics.framework in Frameworks */,
+				C2445FDA19F7B30800C3DD71 /* UIKit.framework in Frameworks */,
+				C2445FD619F7B30800C3DD71 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2445FEA19F7B30800C3DD71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2445FEF19F7B30800C3DD71 /* XCTest.framework in Frameworks */,
+				C2445FF119F7B30800C3DD71 /* UIKit.framework in Frameworks */,
+				C2445FF019F7B30800C3DD71 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2445FC919F7B30800C3DD71 = {
+			isa = PBXGroup;
+			children = (
+				C2445FDB19F7B30800C3DD71 /* Empty Application iPhone Not Using Core Data */,
+				C2445FF419F7B30800C3DD71 /* Empty Application iPhone Not Using Core DataTests */,
+				C2445FD419F7B30800C3DD71 /* Frameworks */,
+				C2445FD319F7B30800C3DD71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2445FD319F7B30800C3DD71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2445FD219F7B30800C3DD71 /* Empty Application iPhone Not Using Core Data.app */,
+				C2445FED19F7B30800C3DD71 /* Empty Application iPhone Not Using Core DataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2445FD419F7B30800C3DD71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2445FD519F7B30800C3DD71 /* Foundation.framework */,
+				C2445FD719F7B30800C3DD71 /* CoreGraphics.framework */,
+				C2445FD919F7B30800C3DD71 /* UIKit.framework */,
+				C2445FEE19F7B30800C3DD71 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2445FDB19F7B30800C3DD71 /* Empty Application iPhone Not Using Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				C2445FE419F7B30800C3DD71 /* YYAppDelegate.h */,
+				C2445FE519F7B30800C3DD71 /* YYAppDelegate.m */,
+				C2445FE719F7B30800C3DD71 /* Images.xcassets */,
+				C2445FDC19F7B30800C3DD71 /* Supporting Files */,
+			);
+			path = "Empty Application iPhone Not Using Core Data";
+			sourceTree = "<group>";
+		};
+		C2445FDC19F7B30800C3DD71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2445FDD19F7B30800C3DD71 /* Empty Application iPhone Not Using Core Data-Info.plist */,
+				C2445FDE19F7B30800C3DD71 /* InfoPlist.strings */,
+				C2445FE119F7B30800C3DD71 /* main.m */,
+				C2445FE319F7B30800C3DD71 /* Empty Application iPhone Not Using Core Data-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2445FF419F7B30800C3DD71 /* Empty Application iPhone Not Using Core DataTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2445FFA19F7B30800C3DD71 /* Empty_Application_iPhone_Not_Using_Core_DataTests.m */,
+				C2445FF519F7B30800C3DD71 /* Supporting Files */,
+			);
+			path = "Empty Application iPhone Not Using Core DataTests";
+			sourceTree = "<group>";
+		};
+		C2445FF519F7B30800C3DD71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2445FF619F7B30800C3DD71 /* Empty Application iPhone Not Using Core DataTests-Info.plist */,
+				C2445FF719F7B30800C3DD71 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2445FD119F7B30800C3DD71 /* Empty Application iPhone Not Using Core Data */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2445FFE19F7B30800C3DD71 /* Build configuration list for PBXNativeTarget "Empty Application iPhone Not Using Core Data" */;
+			buildPhases = (
+				C2445FCE19F7B30800C3DD71 /* Sources */,
+				C2445FCF19F7B30800C3DD71 /* Frameworks */,
+				C2445FD019F7B30800C3DD71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Empty Application iPhone Not Using Core Data";
+			productName = "Empty Application iPhone Not Using Core Data";
+			productReference = C2445FD219F7B30800C3DD71 /* Empty Application iPhone Not Using Core Data.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2445FEC19F7B30800C3DD71 /* Empty Application iPhone Not Using Core DataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C244600119F7B30800C3DD71 /* Build configuration list for PBXNativeTarget "Empty Application iPhone Not Using Core DataTests" */;
+			buildPhases = (
+				C2445FE919F7B30800C3DD71 /* Sources */,
+				C2445FEA19F7B30800C3DD71 /* Frameworks */,
+				C2445FEB19F7B30800C3DD71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2445FF319F7B30800C3DD71 /* PBXTargetDependency */,
+			);
+			name = "Empty Application iPhone Not Using Core DataTests";
+			productName = "Empty Application iPhone Not Using Core DataTests";
+			productReference = C2445FED19F7B30800C3DD71 /* Empty Application iPhone Not Using Core DataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2445FCA19F7B30800C3DD71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YY;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = self.edu;
+				TargetAttributes = {
+					C2445FEC19F7B30800C3DD71 = {
+						TestTargetID = C2445FD119F7B30800C3DD71;
+					};
+				};
+			};
+			buildConfigurationList = C2445FCD19F7B30800C3DD71 /* Build configuration list for PBXProject "Empty Application iPhone Not Using Core Data" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C2445FC919F7B30800C3DD71;
+			productRefGroup = C2445FD319F7B30800C3DD71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2445FD119F7B30800C3DD71 /* Empty Application iPhone Not Using Core Data */,
+				C2445FEC19F7B30800C3DD71 /* Empty Application iPhone Not Using Core DataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2445FD019F7B30800C3DD71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2445FE019F7B30800C3DD71 /* InfoPlist.strings in Resources */,
+				C2445FE819F7B30800C3DD71 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2445FEB19F7B30800C3DD71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2445FF919F7B30800C3DD71 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2445FCE19F7B30800C3DD71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2445FE619F7B30800C3DD71 /* YYAppDelegate.m in Sources */,
+				C2445FE219F7B30800C3DD71 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2445FE919F7B30800C3DD71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2445FFB19F7B30800C3DD71 /* Empty_Application_iPhone_Not_Using_Core_DataTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2445FF319F7B30800C3DD71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2445FD119F7B30800C3DD71 /* Empty Application iPhone Not Using Core Data */;
+			targetProxy = C2445FF219F7B30800C3DD71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2445FDE19F7B30800C3DD71 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2445FDF19F7B30800C3DD71 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C2445FF719F7B30800C3DD71 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2445FF819F7B30800C3DD71 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2445FFC19F7B30800C3DD71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C2445FFD19F7B30800C3DD71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2445FFF19F7B30800C3DD71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Empty Application iPhone Not Using Core Data/Empty Application iPhone Not Using Core Data-Prefix.pch";
+				INFOPLIST_FILE = "Empty Application iPhone Not Using Core Data/Empty Application iPhone Not Using Core Data-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C244600019F7B30800C3DD71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Empty Application iPhone Not Using Core Data/Empty Application iPhone Not Using Core Data-Prefix.pch";
+				INFOPLIST_FILE = "Empty Application iPhone Not Using Core Data/Empty Application iPhone Not Using Core Data-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C244600219F7B30800C3DD71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Empty Application iPhone Not Using Core Data.app/Empty Application iPhone Not Using Core Data";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Empty Application iPhone Not Using Core Data/Empty Application iPhone Not Using Core Data-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Empty Application iPhone Not Using Core DataTests/Empty Application iPhone Not Using Core DataTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C244600319F7B30800C3DD71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Empty Application iPhone Not Using Core Data.app/Empty Application iPhone Not Using Core Data";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Empty Application iPhone Not Using Core Data/Empty Application iPhone Not Using Core Data-Prefix.pch";
+				INFOPLIST_FILE = "Empty Application iPhone Not Using Core DataTests/Empty Application iPhone Not Using Core DataTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2445FCD19F7B30800C3DD71 /* Build configuration list for PBXProject "Empty Application iPhone Not Using Core Data" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2445FFC19F7B30800C3DD71 /* Debug */,
+				C2445FFD19F7B30800C3DD71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2445FFE19F7B30800C3DD71 /* Build configuration list for PBXNativeTarget "Empty Application iPhone Not Using Core Data" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2445FFF19F7B30800C3DD71 /* Debug */,
+				C244600019F7B30800C3DD71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C244600119F7B30800C3DD71 /* Build configuration list for PBXNativeTarget "Empty Application iPhone Not Using Core DataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C244600219F7B30800C3DD71 /* Debug */,
+				C244600319F7B30800C3DD71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2445FCA19F7B30800C3DD71 /* Project object */;
+}
